@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero {
+    background-image: url(../img/Travel\ TimeBackround.png);
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.nav__list {
+    display: flex;
+    text-decoration: none;
+    column-gap: 128px;
+}
+
+.nav__link {
+    transition: all 0.3s;
+    color: white;
+    text-decoration: none;
+    justify-content: baseline;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    margin: 87px 0px 0px 0px;
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+
+}
+
+.btn {
+    color: white;
+    position: relative;
+}
+
+.hero__btn {
+    position: absolute;
+    bottom: 0;
+}
